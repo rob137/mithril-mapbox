@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack src/index.js -d --watch",
-    "watch": "live-server --watch dist/main.js",
+    "watch": "live-server --watch=dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
