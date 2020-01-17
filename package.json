@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack src/index.js -d --watch",
-    "watch": "live-server --watch=dist/main.js",
+    "watch": "live-server --watch=dist/main.js,src/styles/*,index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
+    "mapbox-gl": "^1.6.1",
     "mithril": "^2.0.4"
   }
 }
